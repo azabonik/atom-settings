@@ -1,0 +1,60 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/tmp/d-117122-13768-ghy2iu/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/tmp/d-117122-13768-ghy2iu/package.tgz",
+        "spec": "/tmp/d-117122-13768-ghy2iu/package.tgz",
+        "type": "local"
+      },
+      "/tmp/apm-install-dir-117122-13768-1puqov5"
+    ]
+  ],
+  "_from": "../d-117122-13768-ghy2iu/package.tgz",
+  "_id": "neon-syntax@0.3.7",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/neon-syntax",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/tmp/d-117122-13768-ghy2iu/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/tmp/d-117122-13768-ghy2iu/package.tgz",
+    "spec": "/tmp/d-117122-13768-ghy2iu/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-117122-13768-ghy2iu/package.tgz",
+  "_shasum": "7c8de3241377c577c745c2631e43d83db78c2289",
+  "_shrinkwrap": null,
+  "_spec": "/tmp/d-117122-13768-ghy2iu/package.tgz",
+  "_where": "/tmp/apm-install-dir-117122-13768-1puqov5",
+  "bugs": {
+    "url": "https://github.com/anomaly256/neon-syntax/issues"
+  },
+  "dependencies": {},
+  "description": "Neon syntax theme for Atom inspired by and based on the Farzher Neon Sublime Text 2/3 theme, using CSS text-shadow to implement the glow effect",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "homepage": "https://github.com/anomaly256/neon-syntax#readme",
+  "license": "MIT",
+  "name": "neon-syntax",
+  "optionalDependencies": {},
+  "readme": "# neon-syntax theme\n\nNeon syntax theme for Atom inspired by and based on the Farzher Neon Sublime Text 2/3 theme, using CSS text-shadow to implement the glow effect\n\n![Screenshot](https://cloud.githubusercontent.com/assets/421854/3365790/cf321014-fb35-11e3-9ac4-fbb48dd06361.png)\n\nIf you find that the blur or intensity are too high for your comfort, you can edit the variables in the package's stylesheets/syntax-variables.less to tone down the colours or reduce the blur radius on the text-shadow.  Eventually I intend to provide a settings screen to adjust these values easily once I figure out how to add a settings pane to Atom's Preferences view.\n\n```less\n// Theme specific vars\n@opacity: 0.8;\n@blur: 15px;\n@contrast: 200%;\n@saturation: 200%;\n```\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anomaly256/neon-syntax.git"
+  },
+  "theme": "syntax",
+  "version": "0.3.7"
+}

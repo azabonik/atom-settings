@@ -1,0 +1,13 @@
+"*":
+  core:
+    telemetryConsent: "no"
+    themes: [
+      "atom-dark-ui"
+      "neon-syntax"
+    ]
+  "exception-reporting":
+    userId: "d447580f-915f-42ce-844e-a10bed2ef17e"
+  "sync-settings":
+    gistDescription: "atom-settings"
+    gistId: "84792881"
+    personalAccessToken: "6fd2f4d592629d32088acbec23bb5a340fb78347"
